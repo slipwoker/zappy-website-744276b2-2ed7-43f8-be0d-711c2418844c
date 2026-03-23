@@ -1,35 +1,47 @@
-# Business — Generative Engine Optimization Map
+# בננות בפיג'מות — Generative Engine Optimization Map
+
+> A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://bananotbepijamot.zappy5.app
 A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to ba
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://bananotbepijamot.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://bananotbepijamot.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://bananotbepijamot.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About בננות בפיג'מות
+A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
+
+## Target Audience
+- מתכנני אירועים
+- מדריכים ארגוניים
+- מנהלי משאבי אנוש
+
+## Industry
+אירועים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://bananotbepijamot.zappy5.app/sitemap.xml
+- **Robots.txt**: https://bananotbepijamot.zappy5.app/robots.txt
