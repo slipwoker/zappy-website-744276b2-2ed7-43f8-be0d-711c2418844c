@@ -5608,10 +5608,6 @@ body.accessibility-widget-visible ._access-menu {
   color: #ffffff !important;
 }
 
-.site-footer a:hover {
-  color: var(--accent) !important;
-}
-
 .site-footer .contact-list li {
   color: #ffffff !important;
 }
@@ -5686,82 +5682,6 @@ body.accessibility-widget-visible ._access-menu {
 
 .site-footer .footer-badge span {
   color: #ffffff !important;
-}
-
-.site-footer .contact-list li {
-  color: var(--accent) !important;
-}
-
-.site-footer .contact-list span {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-legal a {
-  color: var(--accent) !important;
-}
-
-.site-footer .copyright p {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-description {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-bottom a {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-bottom p {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-bottom span:not(.separator) {
-  color: var(--accent) !important;
-}
-
-.site-footer .contact-list a:hover {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-legal a:hover {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-bottom a:hover {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-legal .separator {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-links li a {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-contact li {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-contact li a {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-heading {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-cta-text {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-copyright {
-  color: var(--accent) !important;
-}
-
-.site-footer .footer-badge span {
-  color: var(--accent) !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
