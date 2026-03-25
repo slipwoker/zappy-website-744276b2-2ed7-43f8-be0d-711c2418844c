@@ -1,6 +1,4 @@
-# בננות בפיג'מות — Generative Engine Optimization Map
-
-> A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -28,17 +26,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About בננות בפיג'מות
-A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
-
-## Target Audience
-- מתכנני אירועים
-- מדריכים ארגוניים
-- מנהלי משאבי אנוש
-
-## Industry
-אירועים
-
+## About Business
 ---
 
 # Additional Resources
