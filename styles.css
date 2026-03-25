@@ -5570,8 +5570,46 @@ body.accessibility-widget-visible ._access-menu {
   opacity: 0.75;
 }
 
-footer.site-footer .footer-top * {
-  color: #FFFFFF;
+/* ── Challenging footer styles (for AI override testing) ── */
+.site-footer .footer-tagline {
+  color: #4a4f55 !important;
+}
+
+.site-footer .footer-links li a {
+  color: #4a4f55 !important;
+}
+
+.site-footer .footer-contact li {
+  color: #4a4f55 !important;
+}
+
+.site-footer .footer-contact li a {
+  color: #4a4f55 !important;
+}
+
+.site-footer .footer-heading {
+  color: #6a6f75 !important;
+}
+
+.site-footer .footer-cta-text {
+  color: #4a4f55 !important;
+}
+
+.site-footer .footer-copyright {
+  color: #3a3f45 !important;
+}
+
+.site-footer .footer-badge span {
+  color: #4a4f55 !important;
+}
+
+
+.site-footer, .site-footer * {
+  color: #ffffff !important;
+}
+
+.site-footer a:hover {
+  color: var(--accent) !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
