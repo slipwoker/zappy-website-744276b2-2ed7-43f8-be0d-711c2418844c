@@ -5608,6 +5608,10 @@ body.accessibility-widget-visible ._access-menu {
   color: #ffffff !important;
 }
 
+.site-footer a:hover {
+  color: var(--primary-color) !important;
+}
+
 .site-footer .contact-list a {
   color: #ffffff !important;
 }
