@@ -5604,12 +5604,8 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 
-.site-footer, .site-footer p, .site-footer span, .site-footer li, .site-footer a, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer label, .site-footer div {
+.site-footer, .site-footer p, .site-footer span, .site-footer li, .site-footer a, .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6, .site-footer label, .site-footer small, .site-footer div {
   color: #ffffff !important;
-}
-
-.site-footer a:hover {
-  color: var(--accent) !important;
 }
 
 .site-footer .contact-list a {
@@ -5645,18 +5641,6 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 .site-footer .footer-bottom span:not(.separator) {
-  color: #ffffff !important;
-}
-
-.site-footer .contact-list a:hover {
-  color: #ffffff !important;
-}
-
-.site-footer .footer-legal a:hover {
-  color: #ffffff !important;
-}
-
-.site-footer .footer-bottom a:hover {
   color: #ffffff !important;
 }
 
