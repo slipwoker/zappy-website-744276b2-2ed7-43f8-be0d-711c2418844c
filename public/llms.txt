@@ -1,35 +1,47 @@
-# Business — Generative Engine Optimization Map
+# בננות בפיג'מות — Generative Engine Optimization Map
+
+> A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
 
 ---
 
 ## Pages
 
 ### בית
-https://bananotbepijamot.zappy5.app
+https://bananot-bepijamot.zappy5.app
 A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to ba
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://bananotbepijamot.zappy5.app/privacy
+https://bananot-bepijamot.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://bananotbepijamot.zappy5.app/terms
+https://bananot-bepijamot.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://bananotbepijamot.zappy5.app/accessibility
+https://bananot-bepijamot.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About בננות בפיג'מות
+A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
+
+## Target Audience
+- מתכנני אירועים
+- מדריכים ארגוניים
+- מנהלי משאבי אנוש
+
+## Industry
+אירועים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://bananotbepijamot.zappy5.app/sitemap.xml
-- **Robots.txt**: https://bananotbepijamot.zappy5.app/robots.txt
+- **Sitemap**: https://bananot-bepijamot.zappy5.app/sitemap.xml
+- **Robots.txt**: https://bananot-bepijamot.zappy5.app/robots.txt
