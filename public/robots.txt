@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bananot-bepijamot.zappy5.app/sitemap.xml
+Sitemap: https://maorsharontest.com/sitemap.xml

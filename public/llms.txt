@@ -1,47 +1,35 @@
-# בננות בפיג'מות — Generative Engine Optimization Map
-
-> A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://bananot-bepijamot.zappy5.app
+https://maorsharontest.com
 A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to ba
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://bananot-bepijamot.zappy5.app/privacy
+https://maorsharontest.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://bananot-bepijamot.zappy5.app/terms
+https://maorsharontest.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://bananot-bepijamot.zappy5.app/accessibility
+https://maorsharontest.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About בננות בפיג'מות
-A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to bananas (e.g., growers, enthusiasts, exporters, or a humorous/creative event). The specific nature and tone of the event are yet to be clarified.
-
-## Target Audience
-- מתכנני אירועים
-- מדריכים ארגוניים
-- מנהלי משאבי אנוש
-
-## Industry
-אירועים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://bananot-bepijamot.zappy5.app/sitemap.xml
-- **Robots.txt**: https://bananot-bepijamot.zappy5.app/robots.txt
+- **Sitemap**: https://maorsharontest.com/sitemap.xml
+- **Robots.txt**: https://maorsharontest.com/robots.txt
