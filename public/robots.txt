@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maorsharontest.com/sitemap.xml
+Sitemap: https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com/sitemap.xml

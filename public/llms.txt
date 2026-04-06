@@ -5,21 +5,21 @@
 ## Pages
 
 ### בית
-https://maorsharontest.com
+https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com
 A conference or event centered around bananas — whether this is a professional industry event, a fun themed gathering, or a niche community meetup related to ba
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://maorsharontest.com/privacy
+https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://maorsharontest.com/terms
+https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://maorsharontest.com/accessibility
+https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -31,5 +31,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://maorsharontest.com/sitemap.xml
-- **Robots.txt**: https://maorsharontest.com/robots.txt
+- **Sitemap**: https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com/sitemap.xml
+- **Robots.txt**: https://zappy-site-744276b2-2ed7-43f8-be0d.onrender.com/robots.txt
