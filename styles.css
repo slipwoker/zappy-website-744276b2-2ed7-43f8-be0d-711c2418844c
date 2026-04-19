@@ -5404,7 +5404,7 @@ body.accessibility-widget-visible ._access-menu {
 
 /* ═══════════════════════════════════════════════════════════
    V2 REGENERATED SECTION CSS (בית-hero)
-   Added: 2026-04-19T09:58:36.402Z
+   Added: 2026-04-19T10:01:03.853Z
    ═══════════════════════════════════════════════════════════ */
 .index-hero-section {
   position: relative;
@@ -5412,159 +5412,235 @@ body.accessibility-widget-visible ._access-menu {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   overflow: visible;
-  padding-bottom: 80px;
   background-color: var(--bg-dark);
   color: var(--text-light);
-  direction: rtl;
+  padding-bottom: 80px;
 }
 
-/* Background Image */
+/* Background image layer */
 .index-hero-section .index-hero-bg {
   position: absolute;
   inset: 0;
   z-index: 0;
-  overflow: hidden;
-}
-
-.index-hero-section .index-hero-bg img {
-  display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* Scrim Overlay */
+/* Scrim overlay */
 .index-hero-section .index-hero-scrim {
   position: absolute;
   inset: 0;
   z-index: 1;
   pointer-events: none;
   background-image:
-    linear-gradient(
-      to top,
-      rgba(29, 36, 48, 0.92) 0%,
-      rgba(29, 36, 48, 0.72) 40%,
-      rgba(29, 36, 48, 0.35) 70%,
-      rgba(29, 36, 48, 0.15) 100%
-    );
+    linear-gradient(to left, rgba(29,36,48,0.92) 0%, rgba(29,36,48,0.75) 55%, rgba(29,36,48,0.35) 100%),
+    linear-gradient(to top, rgba(29,36,48,0.85) 0%, rgba(29,36,48,0.0) 50%);
 }
 
-/* Hero Content */
-.index-hero-section .index-hero-content {
+/* Banana accent bar */
+.index-hero-section .index-hero-accent-bar {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  z-index: 2;
+  background: linear-gradient(180deg, #ffd22e 0%, #f4bf16 50%, #6b9a24 100%);
+  pointer-events: none;
+}
+
+/* Container */
+.index-hero-section .index-hero-container {
   position: relative;
   z-index: 10;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 160px 24px 60px;
+  padding: 120px 48px 40px;
   display: flex;
-  align-items: flex-end;
   justify-content: flex-start;
 }
 
-.index-hero-section .index-hero-inner {
-  max-width: 680px;
-  text-align: start;
+/* Content block */
+.index-hero-section .index-hero-content {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: right;
 }
 
-/* Label / eyebrow */
-.index-hero-section .index-hero-label {
-  display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--primary);
-  background-color: rgba(244, 197, 66, 0.15);
-  border: 1px solid rgba(244, 197, 66, 0.35);
+/* Badge */
+.index-hero-section .index-hero-badge {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  background: rgba(244, 197, 66, 0.18);
+  border: 1px solid rgba(244, 197, 66, 0.45);
   border-radius: 999px;
-  padding: 5px 16px;
-  margin-bottom: 20px;
-  text-shadow: none;
+  padding: 6px 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffd22e;
+}
+
+.index-hero-section .index-hero-badge-icon {
+  font-size: 15px;
+  line-height: 1;
 }
 
 /* H1 */
 .index-hero-section .index-hero-h1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(48px, 8vw, 88px);
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
   color: var(--text-light);
-  text-shadow: 0 4px 32px rgba(0, 0, 0, 0.55), 0 1px 4px rgba(0, 0, 0, 0.4);
-  margin: 0 0 20px;
+  margin: 0;
+  text-align: right;
+}
+
+.index-hero-section .index-hero-h1-sub {
+  color: #ffd22e;
+  display: block;
 }
 
 /* H3 subtitle */
-.index-hero-section .index-hero-subtitle {
+.index-hero-section .index-hero-h3 {
   font-family: 'Inter', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.55;
-  color: rgba(252, 251, 247, 0.88);
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-  margin: 0 0 36px;
-  max-width: 560px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(252, 251, 247, 0.82);
+  margin: 0;
+  max-width: 520px;
+  text-align: right;
 }
 
-/* CTA Group */
-.index-hero-section .index-hero-ctas {
+/* Meta row */
+.index-hero-section .index-hero-meta {
   display: flex;
   flex-direction: row;
-  gap: 14px;
   align-items: center;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
-/* Primary CTA */
+.index-hero-section .index-hero-meta-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(252, 251, 247, 0.75);
+}
+
+.index-hero-section .index-hero-meta-item i {
+  color: #ffd22e;
+  font-size: 14px;
+}
+
+.index-hero-section .index-hero-meta-divider {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(252, 251, 247, 0.3);
+  flex-shrink: 0;
+}
+
+/* CTA Buttons */
+.index-hero-section .index-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .index-hero-section .index-hero-btn-primary {
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(180deg, #ffd22e 0%, #f4bf16 100%);
+  color: #2f2f2b;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 700;
-  color: #2f2f2b;
-  text-decoration: none;
-  background: linear-gradient(180deg, #ffd22e 0%, #f4bf16 100%);
-  padding: 14px 32px;
+  padding: 14px 28px;
   border-radius: 8px;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 3px 10px rgba(72, 52, 23, 0.22), 0 10px 30px rgba(244, 191, 22, 0.25);
+  text-decoration: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.55), 0 6px 20px rgba(72,52,23,0.22);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
   white-space: nowrap;
 }
 
 .index-hero-section .index-hero-btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55), 0 6px 20px rgba(72, 52, 23, 0.28), 0 14px 40px rgba(244, 191, 22, 0.32);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.55), 0 10px 28px rgba(72,52,23,0.3);
 }
 
-/* Secondary CTA */
-.index-hero-section .index-hero-btn-secondary {
-  display: inline-block;
+.index-hero-section .index-hero-btn-ghost {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--text-light);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
-  font-weight: 600;
-  color: var(--text-light);
-  text-decoration: none;
-  background: rgba(252, 251, 247, 0.12);
-  border: 1.5px solid rgba(252, 251, 247, 0.35);
-  padding: 13px 28px;
+  font-weight: 500;
+  padding: 13px 22px;
   border-radius: 8px;
-  backdrop-filter: blur(4px);
-  transition: background 0.22s ease, border-color 0.22s ease, transform 0.22s ease;
+  border: 1.5px solid rgba(252, 251, 247, 0.35);
+  text-decoration: none;
+  transition: border-color 0.22s ease, background 0.22s ease, transform 0.22s ease;
   white-space: nowrap;
 }
 
-.index-hero-section .index-hero-btn-secondary:hover {
-  background: rgba(252, 251, 247, 0.22);
-  border-color: rgba(252, 251, 247, 0.6);
+.index-hero-section .index-hero-btn-ghost:hover {
+  border-color: rgba(252, 251, 247, 0.7);
+  background: rgba(252, 251, 247, 0.08);
   transform: translateY(-2px);
 }
 
-/* Bottom Divider */
+.index-hero-section .index-hero-btn-ghost i {
+  font-size: 13px;
+  transition: transform 0.22s ease;
+}
+
+.index-hero-section .index-hero-btn-ghost:hover i {
+  transform: translateX(-4px);
+}
+
+/* Host credit */
+.index-hero-section .index-hero-host {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(252, 251, 247, 0.5);
+  margin: 0;
+  text-align: right;
+}
+
+.index-hero-section .index-hero-host strong {
+  color: rgba(252, 251, 247, 0.75);
+  font-weight: 600;
+}
+
+/* Bottom wave divider */
 .index-hero-section .index-hero-divider-wrapper {
   position: absolute;
   bottom: 0;
@@ -5585,52 +5661,59 @@ body.accessibility-widget-visible ._access-menu {
 @media (max-width: 768px) {
   .index-hero-section {
     min-height: 100svh;
-    padding-bottom: 60px;
     align-items: flex-end;
+    padding-bottom: 80px;
+  }
+
+  .index-hero-section .index-hero-scrim {
+    background-image:
+      linear-gradient(to top, rgba(29,36,48,0.96) 0%, rgba(29,36,48,0.6) 60%, rgba(29,36,48,0.25) 100%);
+  }
+
+  .index-hero-section .index-hero-accent-bar {
+    display: none;
+  }
+
+  .index-hero-section .index-hero-container {
+    padding: 100px 20px 32px;
+    justify-content: center;
   }
 
   .index-hero-section .index-hero-content {
-    padding: 0 16px 40px;
-    align-items: flex-end;
-  }
-
-  .index-hero-section .index-hero-inner {
     max-width: 100%;
+    gap: 18px;
   }
 
   .index-hero-section .index-hero-h1 {
-    font-size: clamp(40px, 11vw, 60px);
+    font-size: 2.1rem;
   }
 
-  .index-hero-section .index-hero-subtitle {
-    font-size: 16px;
-    max-width: 100%;
+  .index-hero-section .index-hero-h3 {
+    font-size: 0.97rem;
+  }
+
+  .index-hero-section .index-hero-meta {
+    gap: 8px;
   }
 
   .index-hero-section .index-hero-ctas {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+    align-items: stretch;
+    gap: 10px;
+    width: 100%;
   }
 
   .index-hero-section .index-hero-btn-primary,
-  .index-hero-section .index-hero-btn-secondary {
+  .index-hero-section .index-hero-btn-ghost {
+    justify-content: center;
     width: 100%;
-    text-align: center;
-    padding: 14px 20px;
-  }
-
-  .index-hero-section .index-hero-divider-wrapper {
-    height: 50px;
   }
 }
 
-/* ── DESKTOP ── */
-@media (min-width: 769px) {
-  .index-hero-section .index-hero-content {
-    padding-top: 0;
-    min-height: 100vh;
-    align-items: center;
+/* ── LARGE DESKTOP ── */
+@media (min-width: 1200px) {
+  .index-hero-section .index-hero-h1 {
+    font-size: 4rem;
   }
 }
 /* mobile-submenu-overflow-fix */
