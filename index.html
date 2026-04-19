@@ -1316,42 +1316,8 @@
 
     <!-- 4-Card Grid -->
     <div class="index-features-grid">
-
-      <!-- Card 1: Expert Insights -->
-      <article class="index-features-card" id="zappy-section-3">
-        <div class="index-features-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="16" cy="10" r="5"></circle>
-            <path d="M6 27c0-5.523 4.477-10 10-10s10 4.477 10 10"></path>
-            <path d="M20 7l2 2-2 2"></path>
-            <line x1="22" y1="9" x2="28" y2="9"></line>
-          </svg>
-        </div>
-        <div class="index-features-card-content">
-          <h3 class="index-features-card-title">תובנות ממומחים מהשדה</h3>
-          <p class="index-features-card-text">הרצאות ופאנלים עם מובילי תעשייה, חוקרים ויזמים שמביאים ידע אמיתי — לא שיווקי. תצאו עם הבנה עמוקה יותר של הנעשה בתחום הבננות ובשוק הגלובלי.</p>
-        </div>
-      </article>
-
-      <!-- Card 2: Networking -->
-      <article class="index-features-card" id="zappy-section-4">
-        <div class="index-features-icon-wrap">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="8" cy="16" r="3"></circle>
-            <circle cx="24" cy="8" r="3"></circle>
-            <circle cx="24" cy="24" r="3"></circle>
-            <line x1="11" y1="15" x2="21" y2="9.5"></line>
-            <line x1="11" y1="17" x2="21" y2="22.5"></line>
-          </svg>
-        </div>
-        <div class="index-features-card-content">
-          <h3 class="index-features-card-title">נטוורקינג עם קהילת הבננות</h3>
-          <p class="index-features-card-text">הזדמנות נדירה להיפגש עם אנשים שחולקים את אותה תשוקה — לעשות קשרים, ליצור שיתופי פעולה ולמצוא שותפים עסקיים שמבינים את השפה שלכם.</p>
-        </div>
-      </article>
-
-      <!-- Card 3: Practical Takeaways -->
-      <article class="index-features-card" id="zappy-section-5">
+      <!-- Card 3: Practical Takeaways (now first / top-right in RTL) -->
+      <article class="index-features-card" id="zappy-section-5" data-grid-item-index="0">
         <div class="index-features-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <rect x="6" y="4" width="20" height="24" rx="2"></rect>
@@ -1367,8 +1333,25 @@
         </div>
       </article>
 
-      <!-- Card 4: Themed Experience -->
-      <article class="index-features-card" id="zappy-section-6">
+      <!-- Card 2: Networking (now second / top-left in RTL) -->
+      <article class="index-features-card" id="zappy-section-4" data-grid-item-index="1">
+        <div class="index-features-icon-wrap">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="8" cy="16" r="3"></circle>
+            <circle cx="24" cy="8" r="3"></circle>
+            <circle cx="24" cy="24" r="3"></circle>
+            <line x1="11" y1="15" x2="21" y2="9.5"></line>
+            <line x1="11" y1="17" x2="21" y2="22.5"></line>
+          </svg>
+        </div>
+        <div class="index-features-card-content">
+          <h3 class="index-features-card-title">נטוורקינג עם קהילת הבננות</h3>
+          <p class="index-features-card-text">הזדמנות נדירה להיפגש עם אנשים שחולקים את אותה תשוקה — לעשות קשרים, ליצור שיתופי פעולה ולמצוא שותפים עסקיים שמבינים את השפה שלכם.</p>
+        </div>
+      </article>
+
+      <!-- Card 4: Themed Experience (now third / bottom-right in RTL) -->
+      <article class="index-features-card" id="zappy-section-6" data-grid-item-index="2">
         <div class="index-features-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M16 4 C10 4 6 9 6 14 C6 20 10 24 16 28 C22 24 26 20 26 14 C26 9 22 4 16 4Z"></path>
@@ -1382,7 +1365,22 @@
         </div>
       </article>
 
-    </div>
+      <!-- Card 1: Expert Insights (now fourth / bottom-left in RTL) -->
+      <article class="index-features-card" id="zappy-section-3" data-grid-item-index="3">
+        <div class="index-features-icon-wrap">
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="16" cy="10" r="5"></circle>
+            <path d="M6 27c0-5.523 4.477-10 10-10s10 4.477 10 10"></path>
+            <path d="M20 7l2 2-2 2"></path>
+            <line x1="22" y1="9" x2="28" y2="9"></line>
+          </svg>
+        </div>
+        <div class="index-features-card-content">
+          <h3 class="index-features-card-title">תובנות ממומחים מהשדה</h3>
+          <p class="index-features-card-text">הרצאות ופאנלים עם מובילי תעשייה, חוקרים ויזמים שמביאים ידע אמיתי — לא שיווקי. תצאו עם הבנה עמוקה יותר של הנעשה בתחום הבננות ובשוק הגלובלי.</p>
+        </div>
+      </article>
+</div>
   </div>
 
   <!-- Bottom Paper-Edge Divider -->
